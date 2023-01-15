@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from src.scraping_tool.neweggclient import NewEggClient
+from scrapingtool.neweggclient import NewEggClient
 
 
 class TestNewEggClient(unittest.TestCase):

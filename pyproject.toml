@@ -2,7 +2,7 @@
 name = "scrapingtool"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Aleksandar Velkoski"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

@@ -135,7 +135,7 @@ class NewEggClient:
             file_name: csv file name
         """
         try:
-            with open(f'src/scraping_tool/data_files/{file_name}.csv', 'w', newline='', encoding="utf-8") as csvfile:
+            with open(f'data_files/{file_name}.csv', 'w', newline='', encoding="utf-8") as csvfile:
                 writer = csv.DictWriter(csvfile, fieldnames=cls.FIELD_NAMES)
                 writer.writeheader()
                 writer.writerows(items)
