@@ -6,6 +6,6 @@ query_params = {
     "enableSpaItem": True
 }
 
-client = NewEggClient(query_parameters=query_params, no_of_products=100, file_name="test_products")
+client = NewEggClient(query_parameters=query_params, no_of_products=500, file_name="test_products_500")
 client.extract_save_products()
 
